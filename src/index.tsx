@@ -10,8 +10,6 @@ import "./index.css";
 import Layout from "./pages/layout/Layout";
 import Chat from "./pages/chat/Chat";
 
-import { BACKEND_URI } from "./api/BACKEND_URI";
-console.log(BACKEND_URI)
 var layout;
 
 layout = <Layout />;
