@@ -1,1 +1,1 @@
-export const BACKEND_URI = process.env.API_ENDPOINT;
+export const BACKEND_URI = import.meta.env.VITE_API_ENDPOINT;
